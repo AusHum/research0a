@@ -1,26 +1,40 @@
 /* all */
+html{
+    height: auto;
+}
 body{
-    width: 100vw;
+    margin: 0;
     padding: 0;
     background-color: white;
+    width: 100svw;
 }
 .txt, p{
-    font-size: 20px;
+    font-size: 18px;
     text-align: left;
     font-family: "Noto Sans", "Helvetica Neue", Arial, "Hiragino Sans", "ヒラギノ角ゴシック", "Meiryo", sans-serif;
     color: #37383c;
+    margin-left: 5px;
+}
+.sub-title{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-start;
 }
 .sub-title p{
     font-size: 36px;
 }
-.sub-title p, .sub-title div{
-    display: inline-block;
-}
 .sub-title div{
-    width: 160px;
+    width: 120px;
     height: 1px;
     padding-right: 60px;
-    border-top: #37383c 1px solid;
+    border-top: #37383c 2px solid;
+}
+.flex-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 /* header */
 header{
@@ -40,13 +54,12 @@ header .header{
     position: absolute;
     top: 75px;
     left: 75%;
+    width: auto;
 }
 .header-txt p{
     font-size: 36px;
+    margin: 0;
     color: #37383c;
-}
-.header-flex{
-    display: flex;
 }
 .header nav{
     position: absolute;
@@ -56,6 +69,54 @@ header .header{
 .header-nav{
     text-decoration: none;
     writing-mode: vertical-rl;
-    font-size: 24px;
+    font-size: 22px;
     color: #37383c;
+    border-top: #b0c4de 3px solid;
+    margin: 0 3px;
+    padding-top: 2px;
+}
+/* main content */
+/* main{
+    margin: 25px;
+} */
+.content-wrapper{
+    width: 80%;
+    margin: 0 auto;
+}
+.content-wrapper section{
+    margin: 0 auto;
+}
+.introduction-block{
+    margin: 15px auto;
+    width: 80%;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    padding: 10px;
+}
+.introduction-block a{
+    display: block;
+    text-decoration: none;
+    color: #37383c;
+    font-size: 36px;
+    border-left: #b0c4de 3px solid;
+    padding-left: 5px;
+}
+.introduction-txt p{
+    font-size: 20px;
+}
+.introduction-block img{
+    display: block;
+    width: 30%;
+}
+/* footer */
+footer{
+    background-color: #c8d1de;
+}
+footer p{
+    font-size: 14px;
+    color: black;
+    text-align: left;
+}
+.footer-wrapper{
+    width: 80%;
 }
