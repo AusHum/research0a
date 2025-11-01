@@ -108,6 +108,14 @@ header .header{
     border-left: #b0c4de 3px solid;
     padding-left: 5px;
 }
+.introduction-block .hoge{
+    display: inline-block;
+    text-decoration: underline;
+    color: blue;
+    font-size: 1.0em;
+    border: none;
+    padding: 0;
+}
 .introduction-txt{
     width: 70%;
 }
