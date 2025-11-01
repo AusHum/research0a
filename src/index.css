@@ -13,7 +13,6 @@ body{
     text-align: left;
     font-family: "Noto Sans", "Helvetica Neue", Arial, "Hiragino Sans", "ヒラギノ角ゴシック", "Meiryo", sans-serif;
     color: #37383c;
-    margin-left: 5px;
 }
 .sub-title{
     display: flex;
