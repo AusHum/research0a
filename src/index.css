@@ -9,11 +9,10 @@ body{
     width: 100svw;
 }
 .txt, p{
-    font-size: 18px;
+    font-size: 1rem;
     text-align: left;
     font-family: "Noto Sans", "Helvetica Neue", Arial, "Hiragino Sans", "ヒラギノ角ゴシック", "Meiryo", sans-serif;
     color: #37383c;
-    margin-left: 5px;
 }
 .sub-title{
     display: flex;
@@ -22,19 +21,30 @@ body{
     justify-content: flex-start;
 }
 .sub-title p{
-    font-size: 36px;
+    font-size: 1.75rem;
 }
 .sub-title div{
-    width: 120px;
+    width: 5%;
     height: 1px;
     padding-right: 60px;
-    border-top: #37383c 2px solid;
+    border-top: #2589d0 2px solid;
 }
 .flex-container{
     display: flex;
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
+    width: 100%;
+}
+h1, h2, h3, h4, h5, h6, .emphasized{
+    font-weight: bolder;
+}
+section{
+    margin: 5 0;
+}
+a{
+    font-size: 1rem;
+    /* text-align: left; */
 }
 /* header */
 header{
@@ -57,7 +67,7 @@ header .header{
     width: auto;
 }
 .header-txt p{
-    font-size: 36px;
+    font-size: 1.75rem;
     margin: 0;
     color: #37383c;
 }
@@ -69,7 +79,7 @@ header .header{
 .header-nav{
     text-decoration: none;
     writing-mode: vertical-rl;
-    font-size: 22px;
+    font-size: 1.3rem;
     color: #37383c;
     border-top: #b0c4de 3px solid;
     margin: 0 3px;
@@ -93,16 +103,32 @@ header .header{
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
     padding: 10px;
 }
+.introduction-content{
+    margin-left: 8px;
+    margin-right: 8px;
+}
 .introduction-block a{
     display: block;
     text-decoration: none;
     color: #37383c;
-    font-size: 36px;
+    font-size: 1.25rem;
     border-left: #b0c4de 3px solid;
     padding-left: 5px;
 }
+.introduction-block .hoge{
+    display: inline-block;
+    text-decoration: underline;
+    color: blue;
+    font-size: 0.8rem;
+    border: none;
+    padding: 0;
+}
+.introduction-txt{
+    width: 70%;
+}
 .introduction-txt p{
-    font-size: 20px;
+    font-size: 0.8rem;
+    width: 100%;
 }
 .introduction-block img{
     display: block;
@@ -113,7 +139,7 @@ footer{
     background-color: #c8d1de;
 }
 footer p{
-    font-size: 14px;
+    font-size: 0.8rem;
     color: black;
     text-align: left;
 }

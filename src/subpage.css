@@ -1,0 +1,43 @@
+.button-mainpage{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 75%;
+    height: 40px;
+    background-color: lightgreen;
+}
+.button-mainpage p{
+    position: absolute;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* subpage-header */
+.subpage-header {
+    display: inline-block;
+    position: relative;
+    padding: 0 2.5em;
+    color: #333333;
+}
+
+.subpage-header::before,
+.subpage-header::after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    width: 45px;
+    height: 3px;
+    background-color: #2589d0;
+}
+
+.subpage-header::before {
+    left: 0;
+}
+
+.subpage-header::after {
+    right: 0;
+}
